@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.0.8"
+django-cors-headers = "*"
+djangorestframework = "*"
+pillow = "*"
+braintree = "*"
+django-s3direct = "*"
+boto3 = "*"
+django-storages = "*"
+mysqlclient = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
